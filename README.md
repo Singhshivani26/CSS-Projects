@@ -1,51 +1,52 @@
 # CSS Projects
 
 This repository contains eight CSS projects developed as part of my Web Development Certification.  
-Each project demonstrates the use of CSS to style, design, and structure HTML web pages.
+These projects demonstrate the use of CSS for styling, layouts, animations, and designing complete web pages.
 
 ## Projects Included
 
 1. **Poem Styling Project**
-   - Simple HTML poem page styled using external CSS.
+   - A simple HTML poem page styled using external CSS.
    - Focus on text colors, fonts, alignment, and spacing.
 
 2. **Text Styling Project**
-   - Enhanced text formatting using CSS.
-   - Demonstrates font properties, line spacing, and color schemes.
+   - Text formatting using CSS.
+   - Demonstrates font properties, colors, and line spacing.
 
 3. **Box Model Project**
-   - Layout created using CSS box model.
-   - Uses margin, padding, borders, and positioning.
+   - Layout designed using the CSS box model.
+   - Uses margin, padding, borders, and spacing concepts.
 
 4. **Image Styling Project**
    - Web page styled with multiple images.
-   - Focus on image sizing, alignment, and layout using CSS.
+   - Focus on image sizing, alignment, and page layout using CSS.
 
-5. **Real Estate Website Project**
-   - A complete real estate website designed using HTML and CSS.
-   - Includes multiple property images and structured layout.
-   - Demonstrates page sections, image galleries, and clean UI design.
+5. **CSS Animation Project**
+   - Web elements animated using CSS.
+   - Demonstrates transitions, keyframes, and basic animations.
 
 6. **Layout Design Project**
-   - Structured web page layout using CSS.
-   - Focus on alignment, spacing, and visual organization.
+   - Structured page layout using CSS.
+   - Focus on alignment, spacing, and visual consistency.
 
 7. **Multi-Section Web Page**
-   - Web page divided into multiple sections using CSS.
-   - Demonstrates consistent styling across sections.
+   - Web page divided into multiple sections.
+   - Consistent styling applied across different sections using CSS.
 
-8. **CSS Practice Project**
-   - Combined practice of various CSS concepts.
-   - Focus on improving overall page appearance and structure.
+8. **Real Estate Website Project**
+   - A complete real estate website built using HTML and CSS.
+   - Includes multiple property images and structured page layout.
+   - Demonstrates image galleries, sections, and clean UI design.
 
-Each project is stored in a separate folder for better organization.
+Each project is organized in a separate folder for clarity and easy navigation.
 
 ## Skills Demonstrated
 - External CSS linking
 - CSS selectors and properties
-- Box model (margin, padding, borders)
+- Box model (margin, padding, border)
 - Page layout and section design
 - Image styling and positioning
+- CSS animations and transitions
 - Multi-page website styling using CSS
 
 ## Technologies Used
