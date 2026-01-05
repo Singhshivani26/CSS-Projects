@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .sprite {
+            width: 64px; 
+            height: 64px; 
+            background-image: url('walk-cycle.png'); 
+            background-repeat: no-repeat;
+            animation: walk 1s steps(9) infinite;
+        }
+
+        @keyframes walk {
+            100% {
+                background-position: -576px; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sprite"></div>
+</body>
+</html>

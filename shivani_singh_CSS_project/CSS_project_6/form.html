@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buckstars Coffee Order Form</title>
+    <link rel="stylesheet" href="form_style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Buckstars Coffee Order Form</h1>
+        <form>
+            <label for="type-of-coffee">Type of coffee:</label>
+            <select id="type-of-coffee" name="type-of-coffee">
+                <option value="regular">Regular</option>
+                <option value="decaf">Decaf</option>
+                <option value="50-50">50/50</option>
+            </select>
+
+            <label for="coffee-temp">Coffee Temperature:</label>
+            <select id="coffee-temp" name="coffee-temp">
+                <option value="hot">Hot</option>
+                <option value="iced">Iced</option>
+            </select>
+
+            <label for="sweetener">Type of Sweetener:</label>
+            <select id="sweetener" name="sweetener">
+                <option value="sugar">Sugar</option>
+                <option value="splenda">Splenda</option>
+                <option value="equal">Equal</option>
+                <option value="sweet-n-low">Sweet n’ Low</option>
+                <option value="stevia">Stevia</option>
+            </select>
+
+            <label for="creamer">Type of Creamer:</label>
+            <select id="creamer" name="creamer">
+                <option value="half-and-half">Half & Half</option>
+                <option value="whole-milk">Whole Milk</option>
+                <option value="skim-milk">Skim Milk</option>
+                <option value="almond-milk">Almond Milk</option>
+                <option value="oat-milk">Oat Milk</option>
+            </select>
+
+            <label for="size">Size:</label>
+            <select id="size" name="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+
+            <label for="to-go">To Go or Not:</label>
+            <select id="to-go" name="to-go">
+                <option value="to-go">To Go</option>
+                <option value="not-to-go">Not To Go</option>
+            </select>
+
+            <label for="customer-name">Customer Name:</label>
+            <input type="text" id="customer-name" name="customer-name" placeholder="Enter your name" required>
+
+            <label for="customer-phone">Customer Phone:</label>
+            <input type="tel" id="customer-phone" name="customer-phone" placeholder="Enter your phone number" required>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </div>
+</body>
+</html>

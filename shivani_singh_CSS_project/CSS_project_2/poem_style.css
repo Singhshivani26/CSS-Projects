@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Libre+Baskerville:ital@1&display=swap');
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    color:black;
+    background-color: wheat;
+    margin: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.poem {
+    text-align: center;
+    line-height: 1.5;
+    margin: 20px;
+    padding: 20px;
+    border: 5px dotted darkred;
+    background-color: white;
+    width: 50%;
+}
+
+.poem p {
+    margin-bottom: 1em;
+    font-family: 'Dancing Script',cursive;
+    font-size: 30px;
+    color: darkred;
+    margin-bottom: 1.5em;
+    text-shadow:5px;
+}
+
